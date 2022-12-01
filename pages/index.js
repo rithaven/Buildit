@@ -7,6 +7,7 @@ import Projects from '../components/Projects';
 import Partners from '../components/Partners';
 import Featured from '../components/Featured';
 import Instagram from '../components/Instagram';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <Partners />
     <Featured />
     <Instagram />
+    <Footer />
     </div>
   );
 }
