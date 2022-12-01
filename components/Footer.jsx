@@ -6,7 +6,7 @@ import FooterImg from './FooterImg'
 
 const Footer = () => {
   return (
-    <div className='bg-cyan-700 w-full'>
+    <div className='bg-cyan-700 w-full text-white'>
         <div className='grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-2 p-4 '>
             <div className='grid grid-rows-3'>
                 <h1 className=' text-xl'>Buildit</h1>
