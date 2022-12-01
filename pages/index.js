@@ -6,6 +6,7 @@ import Gallery from '../components/Gallery';
 import Projects from '../components/Projects';
 import Partners from '../components/Partners';
 import Featured from '../components/Featured';
+import Instagram from '../components/Instagram';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <Projects />
     <Partners />
     <Featured />
+    <Instagram />
     </div>
   );
 }

@@ -10,7 +10,7 @@ import PartnersHeader from './PartnersHeader'
 
 const Partners = () => {
   return (
-    <div className='bg-green-100 p-20'>
+    <div className='bg-gray-100 p-20'>
         <PartnersHeader socailImg={IgImg4} alt='/' />
         <div className='flex justify-center gap-10 p-4'>
             <PartnersHeader socailImg={IgImg6} alt='/' />
