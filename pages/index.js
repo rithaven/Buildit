@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Hero from '../components/Hero';
 import Gallery from '../components/Gallery';
 import Projects from '../components/Projects';
+import Partners from '../components/Partners';
+import Featured from '../components/Featured';
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
    </Head>
    <Hero heading='Development company' message='Forward-thinking real estate developer, owner and investor with a reputation.'/>
     <Projects />
+    <Partners />
+    <Featured />
     </div>
   );
 }
